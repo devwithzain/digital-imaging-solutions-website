@@ -1,0 +1,15 @@
+export { default as logo } from "./logo.webp";
+export { default as banner1 } from "./banner1.webp";
+export { default as banner2 } from "./banner2.webp";
+export { default as banner3 } from "./banner3.webp";
+export { default as banner4 } from "./banner4.webp";
+export { default as product_01 } from "./product-01.webp";
+export { default as product_02 } from "./product-02.webp";
+export { default as label_product_1 } from "./label_product_1.webp";
+export { default as label_product_2 } from "./label_product_2.webp";
+export { default as label_product_3 } from "./label_product_3.webp";
+export { default as die_cutting_banner } from "./die_cutting_banner.webp";
+export { default as die_cutting_product_1 } from "./die_cutting_product_1.webp";
+export { default as die_cutting_product_2 } from "./die_cutting_product_2.webp";
+export { default as printer_banner } from './printer_banner.jpg';
+export { default as precision } from './precision.jpg';

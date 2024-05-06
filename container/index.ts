@@ -1,0 +1,11 @@
+export { default as Hero } from "./home-page/Hero";
+export { default as Product } from "./home-page/Product";
+export { default as AboutHero } from "./about-page/Hero";
+export { default as About } from "./about-page/About";
+export { default as LabelHero } from "./products-page/label_product/Hero";
+export { default as LabelProduct } from "./products-page/label_product/Product";
+export { default as Printer3dHero } from "./products-page/3d_printer/Hero";
+export { default as Printer3dProduct } from "./products-page/3d_printer/Product";
+export { default as DieCuttingHero } from "./products-page/die_cutting_product/Hero";
+export { default as DieCuttingProduct } from "./products-page/die_cutting_product/Product";
+export { default as HeroContact } from "./contact-page/Hero";
