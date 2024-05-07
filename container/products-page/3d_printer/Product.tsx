@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import { performanceIcon, precision } from "@/public";
+import { precision, printer_03, printer_interface } from "@/public";
 import Link from "next/link";
 import { GrPerformance } from "react-icons/gr";
 import { GoWorkflow } from "react-icons/go";
@@ -123,8 +123,8 @@ export default function Product() {
 					</div>
 					<div className="flex-1 shadow-2xl rounded-2xl">
 						<Image
-							src={precision}
-							alt="product_01_img"
+							src={printer_interface}
+							alt="printer_interface_img"
 							className="w-full h-full object-cover"
 						/>
 					</div>
@@ -163,8 +163,8 @@ export default function Product() {
 					</div>
 					<div className="flex-1 shadow-2xl rounded-2xl">
 						<Image
-							src={precision}
-							alt="product_01_img"
+							src={printer_03}
+							alt="printer_03_img"
 							className="w-full h-full object-cover"
 						/>
 					</div>

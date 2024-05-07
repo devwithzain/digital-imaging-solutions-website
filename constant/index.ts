@@ -100,20 +100,3 @@ export const imgItem = [
         src: banner4
     },
 ];
-
-
-export const printer3dItems = [
-    {
-        id: 1,
-        heading: "Precision",
-        subheading: "Unmatched Precision for Superior 3D Printing",
-        smallheading1: "Reliable Performance",
-        para1: "Experience the power of XVICO 3D Printer&apos;s precision printing capabilities.With its advanced technology and high - quality components, it delivers exceptional accuracy and detail in every print.",
-        smallheading2: "Efficient Workflow",
-        para2: "Streamline your 3D printing process with the XVICO Printer efficient workflow and intuitive features.",
-        button: "Learn more",
-        link: "Buy now",
-        href: "/contact-us",
-        src: precision
-    }
-];

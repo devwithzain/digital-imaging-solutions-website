@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Socials from "./Socials";
 import MobileNav from "./MobileNav";
+import StaggeredDropDown from "./Dropdown";
 export default function Navbar() {
 	return (
 		<nav className="w-full">
@@ -42,10 +43,15 @@ export default function Navbar() {
 					</Link>
 					<div>
 						<div className="relative inline-block group">
-							<button className="text-[17px] font-medium text-black">
+							{/* <button className="text-[17px] font-medium text-black">
 								Products
 							</button>
 							<div className="hidden absolute bg-[#f1f1f1] min-w-[200px] shadow-lg z-10 group-hover:block">
+								<Link
+									href="/product/3d_printer"
+									className="text-black text-[17px] font-medium cursor-pointer py-[12px] px-[16px] block hover:bg-[#ddd]">
+									3D Printer
+								</Link>
 								<Link
 									href="/product/digital_label_printer"
 									className="text-black text-[17px] font-medium cursor-pointer py-[12px] px-[16px] block hover:bg-[#ddd]">
@@ -56,12 +62,8 @@ export default function Navbar() {
 									className="text-black text-[17px] font-medium cursor-pointer py-[12px] px-[16px] block hover:bg-[#ddd]">
 									Digital Die Cutting
 								</Link>
-								<Link
-									href="/product/3d_printer"
-									className="text-black text-[17px] font-medium cursor-pointer py-[12px] px-[16px] block hover:bg-[#ddd]">
-									3D Printer
-								</Link>
-							</div>
+							</div> */}
+							<StaggeredDropDown />
 						</div>
 					</div>
 					<Link

@@ -43,12 +43,12 @@ export default function Carousel({
 						alt="img"
 						width={1310}
 						height={546}
-						className="w-full h-full object-cover"
+						className="w-auto h-auto object-cover"
 					/>
 				))}
 			</div>
 			{hovered && (
-				<div className="absolute flex items-center justify-between p-[10px]">
+				<div className="absolute inset-0 flex items-center justify-between p-[10px]">
 					<button
 						onClick={prev}
 						className="p-[10px] rounded-[50%] shadow-lg bg-white/80 text-gray-800 hover:bg-white group">
