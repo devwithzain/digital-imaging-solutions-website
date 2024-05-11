@@ -30,7 +30,7 @@ export default function Carousel({
 	};
 	return (
 		<div
-			className="relative w-full overflow-hidden transition-all transform ease-out duration-500 bg-blue-700"
+			className="relative w-full overflow-hidden transition-all transform ease-out duration-500"
 			onMouseEnter={() => setHovered(true)}
 			onMouseLeave={() => setHovered(false)}>
 			<div
