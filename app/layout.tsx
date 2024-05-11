@@ -1,24 +1,23 @@
 import "@/styles/globals.css";
 import type { Metadata } from "next";
-import { Footer, Navbar } from "@/components";
+import { Footer } from "@/components";
 
 export const metadata: Metadata = {
-  title: "Digital Imaging Solutions",
-  description: "Digital Imaging Solutions",
+	title: "Digital Imaging Solutions",
+	description: "Digital Imaging Solutions",
 };
 
 export default function RootLayout({
-  children,
+	children,
 }: Readonly<{
-  children: React.ReactNode;
+	children: React.ReactNode;
 }>) {
-  return (
-    <html lang="en">
-      <body>
-        <Navbar/>
-        {children}
-        <Footer/>
-        </body>
-    </html>
-  );
+	return (
+		<html lang="en">
+			<body>
+				{children}
+				<Footer />
+			</body>
+		</html>
+	);
 }
