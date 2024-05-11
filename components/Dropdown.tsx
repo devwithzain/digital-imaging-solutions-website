@@ -8,7 +8,7 @@ import { iconVariants, itemVariants, wrapperVariants } from "@/motion";
 export default function StaggeredDropDown() {
 	const [open, setOpen] = useState(false);
 	return (
-		<div className="relative z-20 flex items-center justify-center bg-white">
+		<div className="relative z-20 flex items-center justify-center">
 			<motion.div
 				animate={open ? "open" : "closed"}
 				className="relative">

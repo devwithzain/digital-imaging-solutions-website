@@ -4,6 +4,7 @@ import Link from "next/link";
 import Socials from "./Socials";
 import MobileNav from "./MobileNav";
 import StaggeredDropDown from "./Dropdown";
+
 export default function Navbar() {
 	return (
 		<nav className="w-full">
@@ -30,7 +31,7 @@ export default function Navbar() {
 						<MobileNav />
 					</div>
 				</div>
-				<div className="flex items-center gap-2 sm:hidden xm:hidden">
+				<div className="flex items-center gap-[30px] sm:hidden xm:hidden">
 					<Link
 						className="text-[17px] font-medium cursor-pointer hover"
 						href={"/"}>
@@ -43,26 +44,6 @@ export default function Navbar() {
 					</Link>
 					<div>
 						<div className="relative inline-block group">
-							{/* <button className="text-[17px] font-medium text-black">
-								Products
-							</button>
-							<div className="hidden absolute bg-[#f1f1f1] min-w-[200px] shadow-lg z-10 group-hover:block">
-								<Link
-									href="/product/3d_printer"
-									className="text-black text-[17px] font-medium cursor-pointer py-[12px] px-[16px] block hover:bg-[#ddd]">
-									3D Printer
-								</Link>
-								<Link
-									href="/product/digital_label_printer"
-									className="text-black text-[17px] font-medium cursor-pointer py-[12px] px-[16px] block hover:bg-[#ddd]">
-									Label Printer
-								</Link>
-								<Link
-									href="/product/digtial_die_cutting_machine"
-									className="text-black text-[17px] font-medium cursor-pointer py-[12px] px-[16px] block hover:bg-[#ddd]">
-									Digital Die Cutting
-								</Link>
-							</div> */}
 							<StaggeredDropDown />
 						</div>
 					</div>
